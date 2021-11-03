@@ -107,7 +107,6 @@ Setelah melakukan proses diatas maka masuk ke proses encoding data. Dimana pada 
  * Encoding Fitur ISBN
 
     ![encoding2](https://user-images.githubusercontent.com/81318203/140053187-61bbaa75-f684-4c96-9ba2-88d362892a30.jpg)
-
 <br>Untuk proses encoding fitur ISBN sama seperti proses encoding fitur UserID yang dilanjutkan dengan memetakan userID dan ISBN ke dataframe yang berkaitan seperti userID ke dataframe user dan ISBN ke dataframe book.</br>
 
 Tahap terakhir yaitu melakukan pengecekan data seperti jumlah user, jumlah book dan mengubah nilai rating yang awalnya memiliki tipe data integer menjadi float. Pada gambar dibawah ini memiliki output jumlah user, jumlah book, minimum rating dan maksimal rating.
