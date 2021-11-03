@@ -15,7 +15,7 @@ Dari kondisi diatas, maka kita dapat membuat sistem rekomendasi buku sebagai ber
 
 ### Goals
 Dari pernyaatan masalah diatas maka kita dapat membuat tujuan atau goals seperti berikut:
-* Menghasilkan sejumlah rekomendasi buku yang sesuai dengan preferensi pengguna dan belum pernah dibaca sebelumnya dengan teknik collaborative filtering.
+* Menghasilkan sejumlah rekomendasi buku yang sesuai dengan preferensi pengguna dan belum pernah dibaca sebelumnya dengan teknik *collaborative filtering.
 
 ### Solution approach
 Berdasarkan problem statement dan goals diatas maka saya menggunakan 1 pendekatan sistem rekomendasi yaitu collaborative filtering yang digunakan untuk merekomendasikan buku yang memiliki penjelasan sebagai berikut:
