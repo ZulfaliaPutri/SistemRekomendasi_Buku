@@ -76,7 +76,7 @@ Pada data preparation saya menggunakan dataset dengan nama data_books, data_rati
 
  ![null](https://user-images.githubusercontent.com/81318203/140051743-f16b2229-3a63-486a-9172-dce3256191be.jpg)
  
-\Pada gambar diatas, dilakukan pengecekan data null dengan menggunakan fungsi isnull dimana  terdiri dari 3 dataset yaitu data_books, data_rating dan data_train yang merupakan gabungan dari data_books dan data_rating. Bila dilihat pada gambar diatas maka data tidak memiliki null sehingga tidak perlu dilakukan teknik penghapusan data null, teknik dilakukan bila disalah satu data terdapat nilai null.
+Pada gambar diatas, dilakukan pengecekan data null dengan menggunakan fungsi isnull dimana  terdiri dari 3 dataset yaitu data_books, data_rating dan data_train yang merupakan gabungan dari data_books dan data_rating. Bila dilihat pada gambar diatas maka data tidak memiliki null sehingga tidak perlu dilakukan teknik penghapusan data null, teknik dilakukan bila disalah satu data terdapat nilai null.
 
 2. Pengecekan data duplikat
 
