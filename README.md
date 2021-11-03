@@ -94,6 +94,8 @@ Kemudian, setelah dilakukan persiapan dilanjutkan dengan penghapusan data duplik
 
 Pada gambar diatas dilakukan proses pengkonversian data series dalam bentuk list. Pada proses menggunakan fungsi ‘tolist()’ dari library numpy. Bila dilihat dari hasil output menampilkan jumlah dari books_id, books_title dan books_author yang memiliki jumlah yang sama yaitu 2519. Tahap berikutnya, membuat dictionary yang gunanya untuk menentukan pasangan key-value dari data books_id, books_title dan books_author seperti gambar dibawah ini.
 
+![booknew](https://user-images.githubusercontent.com/81318203/140097162-4149a37c-0272-43f9-8951-4aae21e3ff47.jpg)
+
 4.	Encoding Data
 
 Setelah melakukan proses diatas maka masuk ke proses encoding data. Dimana pada proses ini digunakan untuk menyandikan (encode) fitur ke dalam indeks integer dimana fitur yang digunakan yaitu fitur ‘UserID’ dan ‘ISBN’.
