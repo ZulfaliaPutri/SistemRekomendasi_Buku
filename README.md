@@ -76,7 +76,7 @@ Pada data preparation saya menggunakan dataset dengan nama data_books, data_rati
 
  ![null](https://user-images.githubusercontent.com/81318203/140051743-f16b2229-3a63-486a-9172-dce3256191be.jpg)
  
-Pada gambar diatas, dilakukan pengecekan data null dengan menggunakan fungsi isnull dimana  terdiri dari 3 dataset yaitu data_books, data_rating dan data_train yang merupakan gabungan dari data_books dan data_rating. Bila dilihat pada gambar diatas maka data tidak memiliki null sehingga tidak perlu dilakukan teknik penghapusan data null, teknik dilakukan bila disalah satu data terdapat nilai null.
+Pada gambar diatas, dilakukan pengecekan data null dengan menggunakan fungsi *isnull* dimana  terdiri dari 3 dataset yaitu data_books, data_rating dan data_train yang merupakan gabungan dari data_books dan data_rating. Bila dilihat pada gambar diatas maka data tidak memiliki null sehingga tidak perlu dilakukan teknik penghapusan data null, teknik dilakukan bila disalah satu data terdapat nilai null.
 
 2. Pengecekan data duplikat
 
@@ -84,7 +84,7 @@ Selanjutnya dilakukan persiapan penghapusan data duplikat, dengan membuat variab
 
 ![duplikat](https://user-images.githubusercontent.com/81318203/140052235-d9035e9c-dbaa-4a30-9c13-1f5a55b0df19.jpg)
 
-Kemudian, setelah dilakukan persiapan dilanjutkan dengan penghapusan data duplikat menggunakan fungsi ‘drop_duplicates’. Penghapusan data duplikat berguna bila data train dan data test ada yang sama. Bila di lihat dari gambar diatas dan di bawah jumlah rows berkurang ketika dilakukan penghapusan data duplikat. Gambar dibawah ini merupakan hasil drop duplicates:
+Kemudian, setelah dilakukan persiapan dilanjutkan dengan penghapusan data duplikat menggunakan fungsi *drop_duplicates*. Penghapusan data duplikat berguna bila data train dan data test ada yang sama. Bila di lihat dari gambar diatas dan di bawah jumlah rows berkurang ketika dilakukan penghapusan data duplikat. Gambar dibawah ini merupakan hasil drop duplicates:
 
 ![duplikat2](https://user-images.githubusercontent.com/81318203/140052299-298a2660-534c-4e76-b6e1-28612a6fde8a.jpg)
 
