@@ -82,19 +82,17 @@ Pada gambar diatas, dilakukan pengecekan data null dengan menggunakan fungsi *is
 
 Selanjutnya dilakukan persiapan penghapusan data duplikat, dengan membuat variable baru dengan nama ‘data_prep’ yang berisi dataframe ‘data_train’ yang diurutkan berdasarkan ‘ISBN’. Berikut ini merupakan hasil dari persiapan penghapusan data duplikat:
 
-![duplikat](https://user-images.githubusercontent.com/81318203/140052235-d9035e9c-dbaa-4a30-9c13-1f5a55b0df19.jpg)
+![duplikat1](https://user-images.githubusercontent.com/81318203/140472381-d6584fa2-e02b-4e28-9f8c-f4dec360ba4a.jpg)
 
 Kemudian, setelah dilakukan persiapan dilanjutkan dengan penghapusan data duplikat menggunakan fungsi *drop_duplicates*. Penghapusan data duplikat berguna bila data train dan data test ada yang sama. Bila di lihat dari gambar diatas dan di bawah jumlah rows berkurang ketika dilakukan penghapusan data duplikat. Gambar dibawah ini merupakan hasil drop duplicates:
 
-![duplikat2](https://user-images.githubusercontent.com/81318203/140052299-298a2660-534c-4e76-b6e1-28612a6fde8a.jpg)
+![duplikatt2](https://user-images.githubusercontent.com/81318203/140472405-0fdc99c9-9f41-40f4-8dc4-472e8b59db72.jpg)
 
 3.	Melakukan konversi data series dan pembuatan dictionary
 
-![isbn](https://user-images.githubusercontent.com/81318203/140054259-cc7c4459-8a65-4ed8-9a1e-c9ce0012edfe.jpg)
+Disini dilakukan proses pengkonversian data series dalam bentuk list dimana menggunakan fungsi ‘tolist()’ dari library numpy. Proses ini menampilkan output dari jumlah  books_id, books_title dan books_author yang memiliki jumlah yang sama yaitu 2519. Tahap berikutnya, membuat dictionary yang gunanya untuk menentukan pasangan key-value dari data books_id, books_title dan books_author seperti gambar dibawah ini.
 
-Pada gambar diatas dilakukan proses pengkonversian data series dalam bentuk list. Pada proses menggunakan fungsi ‘tolist()’ dari library numpy. Bila dilihat dari hasil output menampilkan jumlah dari books_id, books_title dan books_author yang memiliki jumlah yang sama yaitu 2519. Tahap berikutnya, membuat dictionary yang gunanya untuk menentukan pasangan key-value dari data books_id, books_title dan books_author seperti gambar dibawah ini.
-
-![booknew](https://user-images.githubusercontent.com/81318203/140097162-4149a37c-0272-43f9-8951-4aae21e3ff47.jpg)
+![book_new1](https://user-images.githubusercontent.com/81318203/140472777-9179022b-a6de-49d0-9cca-1911556010e4.jpg)
 
 4.	Encoding Data
 
@@ -105,13 +103,11 @@ Setelah melakukan proses diatas maka masuk ke proses encoding data. Dimana pada 
 <br>Pada gambar diatas merupakan output dari encode fitur ‘UserID’ dimana terdiri dari list UserID dmana list tidak memiliki nilai yang sama, encoded UserId dan encoded angka ke UserID.</br>
 
  * Encoding Fitur ISBN
-
-    ![encoding2](https://user-images.githubusercontent.com/81318203/140053187-61bbaa75-f684-4c96-9ba2-88d362892a30.jpg)
 <br>Untuk proses encoding fitur ISBN sama seperti proses encoding fitur UserID yang dilanjutkan dengan memetakan userID dan ISBN ke dataframe yang berkaitan seperti userID ke dataframe user dan ISBN ke dataframe book.</br>
 
 Tahap terakhir yaitu melakukan pengecekan data seperti jumlah user, jumlah book dan mengubah nilai rating yang awalnya memiliki tipe data integer menjadi float. Pada gambar dibawah ini memiliki output jumlah user, jumlah book, minimum rating dan maksimal rating.
 
-![book_rating](https://user-images.githubusercontent.com/81318203/140054116-6aa6a2be-fc33-4f21-855d-eb14bc612108.jpg)
+![num_book](https://user-images.githubusercontent.com/81318203/140473230-9afaa8b9-1981-4c88-8c1e-6920a1ef0c88.jpg)
 
 5.	Membagi data untuk Training dan Validasi
 
